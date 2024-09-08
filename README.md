@@ -27,3 +27,12 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+## Answer
+
+The array contains the fibonacci values from (0, n) at the beginning of every iteration.
+My reasoning for this is that it is true at the start. From range (0,0), it contains 0 which is a fibonacci number.
+From (0,1) it contains 0 and 1, which are both fibonacci numbers. This continues until the loop terminates. Every number that it added after it is based on adding the previous two, so it makes sense.
+
+
+
