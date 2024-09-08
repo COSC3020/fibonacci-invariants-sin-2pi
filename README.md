@@ -35,4 +35,7 @@ My reasoning for this is that it is true at the start. From range (0,0), it cont
 From (0,1) it contains 0 and 1, which are both fibonacci numbers. This continues until the loop terminates. Every number that it added after it is based on adding the previous two, so it makes sense.
 
 
-
+I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
