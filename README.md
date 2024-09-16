@@ -30,10 +30,8 @@ your answer to this markdown file.
 
 ## Answer
 
-The array contains the fibonacci values from (0, n) at the beginning of every iteration.
-My reasoning for this is that it is true at the start. From range (0,0), it contains 0 which is a fibonacci number.
-From (0,1) it contains 0 and 1, which are both fibonacci numbers. This continues until the loop terminates. Every number that it added after it is based on adding the previous two, so it makes sense.
-
+The length of 'arr' is equal to the number of fibonacci numbers that have been calculated, or the number of times the function has been recursively called.
+Each time the function is called, there is exactly one element added to the list. Before the recursion begins, it has ran 0 times and there are 0 elements in the list. The first time it runs, there is one element in the list, continuing until the base cases are met.
 
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
