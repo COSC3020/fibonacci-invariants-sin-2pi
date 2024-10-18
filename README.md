@@ -30,7 +30,27 @@ your answer to this markdown file.
 
 ## Answer
 
-For an index i, there is a corresponding fibonacci value in the array equal to n, when '0 < i < array length'. Before the loop has started, the array is empty, there is no index location and no value. On the first iteration, where there is a value '0' in the array, it corresponds to the fibonacci number that it takes to produce that value. On the fourth iteration, the array index would be at '3', and the corresponding 'n' value would be 2. 
+1. For the first call:
+   
+   Our array starts empty, which is correct for the "previous" (non-existent) call.
+
+4. For the base cases:
+   
+   When $n = 0$, the array is initially empty, and the function adds the first Fibonacci number (0).
+     
+   When $n = 1$, the array is initially empty, and the function adds the first two Fibonacci numbers (0, 1).
+
+3. For $n > 1$:
+   
+   The recursive call $fib(n-1, arr)$ ensures that $arr$ will contain the first $n-1$ Fibonacci numbers before calculating and adding the nth number.
+   
+   This maintains the invariant for the next recursive call, as it will start with $arr$ containing $n$ numbers for the input $n+1$.
+
+4. The invariant holds true for all recursive calls because each call either:
+
+   Terminates at a base case, **or**
+   
+   Reduces the $n$ value by 1 and ensures $arr$ contains the appropriate number of Fibonacci numbers before the next recursive call.
 
 I certify that I have listed all sources used to complete this exercise, including the use
 of any Large Language Models. All of the work is my own, except where stated
