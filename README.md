@@ -30,6 +30,8 @@ your answer to this markdown file.
 
 ## Answer
 
+At each recursive call to fib(n, arr), arr contains exactly the first k Fibonacci numbers where k is the number of previous completed recursive calls.
+
 1. For the first call:
    
    Our array starts empty, which is correct for the "previous" (non-existent) call.
